@@ -39,5 +39,5 @@ btnEnviarFoto.addEventListener('click', () => {
 
     localStorage.setItem('cadastro', JSON.stringify(converteRetorno))// INSERE O OBJETO NO LOCALSTORANGE COM A IMAGEM
 
-    window.location.href = '../pages/abrir-conta-form-3.html';
+    window.location.href = './pages/abrir-conta-form-3.html';
 })
